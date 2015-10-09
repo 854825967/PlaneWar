@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "GameConfig::serializeBulletConfig(TiXmlElement const*, BulletConfig&amp;):GameConfig.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "GameConfig::getActionByConfig(ActionConfig const*, cocos2d::Vec2 const&amp;, float, float):GameConfig.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "g_pGameConfig">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "EquipManager::countCapacity(std::__1::list&lt;SEquip, std::__1::allocator&lt;SEquip&gt; &gt; const&amp;):EquipManager.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "sizeof(nCapacity)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameConfig::getPlaneConfig(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const&amp;):GameConfig.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "m_PlaneConfigMap">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Battle::playActionOver(cocostudio::Armature*, cocostudio::MovementEventType, char const*):BattleScene.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "m_pIcon">
+            </PersistentString>
+            <PersistentString
+               value = "m_pMissionVictory">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Battle::event_exec(void*, int):BattleScene.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "Battle::OnHttpRes(int, Json::Value const*, void const*, int):BattleScene.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "m_pIcon">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameConfig::getBossConfig(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const&amp;):GameConfig.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "AppDelegate::initialize():AppDelegate.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "Boss::Boss(BossConfig const*):Boss.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "Battle::enemy_event(void*, int):BattleScene.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "(const EnemyConfig *) pContext">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "EquipManager::countCapacity(SEquip const&amp;):EquipManager.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "Boss::nextEvent(float):Boss.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "m_event_itor">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Login::onEnter():LoginScene.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "Collider::isCollider(Collider const*):Collider.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "Boss::beinjured(int):Boss.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "m_armor">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "IHttpRes::OnHttpBack(int, int, void const*, int, void const*, int):IHttpRes.h">
+         <PersistentStrings>
+            <PersistentString
+               value = "(const char  * )data">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<boss atk="200" name="赤色之狼" res="chisezhilang" armor="20000" tl_x="-300" tl_y="-200" br_x="300" br_y="200" pos_x="768" pos_y="2000" rotate="180">
+    <event cycle="5">
+        <action type="1" x="-500" y="0" time="1" relative="false" updaterotate="false" />
+        <action type="1" x="1000" y="0" time="2" relative="false" updaterotate="false" />
+        <action type="1" x="-500" y="0" time="1" relative="false" updaterotate="false" />
+        
+        <!--cycle周期为子弹生命周期,单位为秒-->
+        <bullet res ="enemy2_bullet1" offset_x="0" offset_y="80" tl_x="5" tl_y="5" br_x="-5" br_y="-5" interval="0.2" cycle="2.5" delay="0" repeat="5" rotate="180">
+            <action type="1" x="0" y="-2560" time="2.5" relative="false" updaterotate="true" />
+        </bullet>
+        <bullet res ="enemy2_bullet1" offset_x="-120" offset_y="80" tl_x="5" tl_y="5" br_x="-5" br_y="-5" interval="0.2" cycle="2.5" delay="0" repeat="5" rotate="180">
+            <action type="1" x="-1200" y="-2560" time="2.5" relative="false" updaterotate="true" />
+        </bullet>
+        <bullet res ="enemy2_bullet1" offset_x="120" offset_y="80" tl_x="5" tl_y="5" br_x="-5" br_y="-5" interval="0.2" cycle="2.5" delay="0" repeat="5" rotate="180">
+            <action type="1" x="1200" y="-2560" time="2.5" relative="false" updaterotate="true" />
+        </bullet>
+    </event>
+    <event cycle="5">
+        <action type="1" x="-500" y="0" time="1" relative="false" updaterotate="false" />
+        <action type="1" x="500" y="0" time="1" relative="false" updaterotate="false" />
+        <action type="0" x="768" y="1700" time="3" relative="false" updaterotate="false" />
+        
+        <!--cycle周期为子弹生命周期,单位为秒-->
+        <bullet res ="enemy1_bullet1" offset_x="-150" offset_y="80" tl_x="5" tl_y="5" br_x="-5" br_y="-5" interval="0.3" cycle="2.2" delay="0" repeat="3" rotate="0">
+            <action type="1" x="0" y="-2560" time="2.2" relative="false" updaterotate="false" />
+        </bullet>
+        <bullet res ="enemy1_bullet1" offset_x="-150" offset_y="80" tl_x="5" tl_y="5" br_x="-5" br_y="-5" interval="0.3" cycle="2.4" delay="0" repeat="3" rotate="0">
+            <action type="1" x="550" y="-2560" time="2.4" relative="false" updaterotate="false" />
+        </bullet>
+        <bullet res ="enemy1_bullet1" offset_x="-150" offset_y="80" tl_x="5" tl_y="5" br_x="-5" br_y="-5" interval="0.3" cycle="2.6" delay="0" repeat="3" rotate="0">
+            <action type="1" x="1000" y="-2560" time="2.6" relative="false" updaterotate="false" />
+        </bullet> 
+        <bullet res ="enemy1_bullet1" offset_x="-150" offset_y="80" tl_x="5" tl_y="5" br_x="-5" br_y="-5" interval="0.3" cycle="2.9" delay="0" repeat="3" rotate="0">
+            <action type="1" x="1450" y="-2560" time="2.9" relative="false" updaterotate="false" />
+        </bullet>
+        <bullet res ="enemy1_bullet1" offset_x="150" offset_y="80" tl_x="5" tl_y="5" br_x="-5" br_y="-5" interval="0.3" cycle="2.2" delay="0" repeat="3" rotate="0">
+            <action type="1" x="0" y="-2560" time="2.2" relative="false" updaterotate="false" />
+        </bullet>
+        <bullet res ="enemy1_bullet1" offset_x="150" offset_y="80" tl_x="5" tl_y="5" br_x="-5" br_y="-5" interval="0.3" cycle="2.4" delay="0" repeat="3" rotate="0">
+            <action type="1" x="-550" y="-2560" time="2.4" relative="false" updaterotate="false" />
+        </bullet>
+        <bullet res ="enemy1_bullet1" offset_x="150" offset_y="80" tl_x="5" tl_y="5" br_x="-5" br_y="-5" interval="0.3" cycle="2.6" delay="0" repeat="3" rotate="0">
+            <action type="1" x="-1000" y="-2560" time="2.6" relative="false" updaterotate="false" />
+        </bullet>
+        <bullet res ="enemy1_bullet1" offset_x="150" offset_y="80" tl_x="5" tl_y="5" br_x="-5" br_y="-5" interval="0.3" cycle="2.9" delay="0" repeat="3" rotate="0">
+            <action type="1" x="-1450" y="-2560" time="2.9" relative="false" updaterotate="false" />
+        </bullet>
+    </event>
+    <event cycle="6">
+        <action type="1" x="0" y="-500" time="1.0" relative="false" updaterotate="false" />
+        <action type="1" x="0" y="500" time="1.0" relative="false" updaterotate="false" />
+        <action type="1" x="0" y="0" time="4" relative="false" updaterotate="false" />
+        <!--cycle周期为子弹生命周期,单位为秒-->
+        <bullet res ="chisezhilang_bullet2" offset_x="0" offset_y="400" tl_x="5" tl_y="5" br_x="-5" br_y="-5" interval="0.1" cycle="2" delay="2" repeat="35" rotate="180">
+            <action type="1" x="0" y="-2560" time="2" relative="false" updaterotate="false" />
+        </bullet>
+    </event>
+    <event cycle="6">
+        <action type="1" x="-500" y="0" time="1" relative="false" updaterotate="false" />
+        <action type="1" x="1000" y="0" time="1" relative="false" updaterotate="false" />
+        <action type="1" x="-500" y="0" time="1" relative="false" updaterotate="false" />
+        <action type="1" x="-500" y="0" time="1" relative="false" updaterotate="false" />
+        <action type="1" x="1000" y="0" time="1" relative="false" updaterotate="false" />
+        <action type="1" x="-500" y="0" time="1" relative="false" updaterotate="false" />
+        
+        <!--cycle周期为子弹生命周期,单位为秒-->
+        <bullet res ="chisezhilang_bullet4" offset_x="-150" offset_y="-150" tl_x="5" tl_y="5" br_x="-5" br_y="-5" interval="0.2" cycle="2" delay="0" repeat="4" rotate="180">
+            <action type="1" x="-1000" y="-2560" time="2" relative="false" updaterotate="true" />
+        </bullet>
+        <bullet res ="chisezhilang_bullet4" offset_x="150" offset_y="-150" tl_x="5" tl_y="5" br_x="-5" br_y="-5" interval="0.2" cycle="2" delay="0" repeat="4" rotate="180">
+            <action type="1" x="1000" y="-2560" time="2" relative="false" updaterotate="true" />
+        </bullet>
+    </event>
+</boss>
+

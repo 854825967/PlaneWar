@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon atk="200" name="钨金穿甲弹" icon="jiutoushedujian.png">
+    <bullet_group level="0" >
+        <!--cycle周期为子弹生命周期,单位为秒-->
+        <bullet res ="chuanjiadan_bullet" offset_x="5" offset_y="5" tl_x="5" tl_y="5" br_x="-5" br_y="-5" interval="1.5" cycle="2" delay="0"  repeat="0" rotate="0">
+            <action type="1" x="-30" y="-60" time=".5" relative="false" updaterotate="false" />
+            <action type="1" x="0" y="2048" time="1" relative="false" updaterotate="false" />
+        </bullet>
+        <bullet res ="chuanjiadan_bullet" offset_x="5" offset_y="5" tl_x="5" tl_y="5" br_x="-5" br_y="-5" interval="1.5" cycle="2" delay="0"  repeat="0" rotate="0">
+            <action type="1" x="30" y="-60" time=".5" relative="false" updaterotate="false" />
+            <action type="1" x="0" y="2048" time="1" relative="false" updaterotate="false" />
+        </bullet>
+    </bullet_group>
+    <bullet_group level="1" >
+        <!--cycle周期为子弹生命周期,单位为秒-->
+        <bullet res ="chuanjiadan_bullet" offset_x="5" offset_y="5" tl_x="5" tl_y="5" br_x="-5" br_y="-5" interval="1.25" cycle="2" delay="0"  repeat="0" rotate="0">
+            <action type="1" x="-30" y="-60" time=".5" relative="false" updaterotate="false" />
+            <action type="1" x="0" y="2048" time="1" relative="false" updaterotate="false" />
+        </bullet>
+        <bullet res ="chuanjiadan_bullet" offset_x="5" offset_y="5" tl_x="5" tl_y="5" br_x="-5" br_y="-5" interval="1.25" cycle="2" delay="0"  repeat="0" rotate="0">
+            <action type="1" x="30" y="-60" time=".5" relative="false" updaterotate="false" />
+            <action type="1" x="0" y="2048" time="1" relative="false" updaterotate="false" />
+        </bullet>
+    </bullet_group>
+    <bullet_group level="2" >
+        <!--cycle周期为子弹生命周期,单位为秒-->
+        <bullet res ="chuanjiadan_bullet" offset_x="5" offset_y="5" tl_x="5" tl_y="5" br_x="-5" br_y="-5" interval="1" cycle="2" delay="0"  repeat="0" rotate="0">
+            <action type="1" x="-30" y="-60" time=".5" relative="false" updaterotate="false" />
+            <action type="1" x="0" y="2048" time="1" relative="false" updaterotate="false" />
+        </bullet>
+        <bullet res ="chuanjiadan_bullet" offset_x="5" offset_y="5" tl_x="5" tl_y="5" br_x="-5" br_y="-5" interval="1" cycle="2" delay="0"  repeat="0" rotate="0">
+            <action type="1" x="30" y="-60" time=".5" relative="false" updaterotate="false" />
+            <action type="1" x="0" y="2048" time="1" relative="false" updaterotate="false" />
+        </bullet>
+    </bullet_group>
+    <bullet_group level="3" >
+        <!--cycle周期为子弹生命周期,单位为秒-->
+        <bullet res ="wujinchuanjiadan_bullet" offset_x="5" offset_y="5" tl_x="5" tl_y="5" br_x="-5" br_y="-5" interval="0.5" cycle="2" delay="0"  repeat="0" rotate="0">
+            <action type="1" x="-30" y="-60" time=".5" relative="false" updaterotate="false" />
+            <action type="1" x="0" y="2048" time=".5" relative="false" updaterotate="false" />
+        </bullet>
+        <bullet res ="wujinchuanjiadan_bullet" offset_x="5" offset_y="5" tl_x="5" tl_y="5" br_x="-5" br_y="-5" interval="0.5" cycle="2" delay="0"  repeat="0" rotate="0">
+            <action type="1" x="30" y="-60" time=".5" relative="false" updaterotate="false" />
+            <action type="1" x="0" y="2048" time=".5" relative="false" updaterotate="false" />
+        </bullet>
+    </bullet_group>
+</weapon>
+
+
+

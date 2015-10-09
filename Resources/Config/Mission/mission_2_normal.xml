@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission>
+    <event_list>
+        <event delay="0">
+            <enemy res="enemy3" armor="250" atk="50" tl_x="-100" tl_y="-100" br_x="100" br_y="100" pos_x="400" pos_y="2200" rotate="180" delay="0" repeat="2" interval="6" cycle="7">
+                <action type="1" x="0" y="-500" time="1" relative="false" updaterotate="false" />
+                <action type="1" x="0" y="0" time="3" relative="false" updaterotate="false" />
+                <action type="1" x="0" y="-2000" time="2" relative="false" updaterotate="false" />
+                <bullet_group>
+                    <bullet res ="enemy1_bullet1" offset_x="0" offset_y="120" tl_x="-15" tl_y="15" br_x="15" br_y="-15" interval="0.5" cycle="3" delay="1" repeat="3"  rotate="0">
+                        <action type="1" x="0" y="-2560" time="3" relative="false" updaterotate="false" />
+                    </bullet>
+                </bullet_group>
+            </enemy>
+            <enemy res="enemy3" armor="250" atk="50" tl_x="-100" tl_y="-100" br_x="100" br_y="100" pos_x="1136" pos_y="2200" rotate="180" delay="0" repeat="2" interval="6" cycle="7">
+                <action type="1" x="0" y="-500" time="1" relative="false" updaterotate="false" />
+                <action type="1" x="0" y="0" time="3" relative="false" updaterotate="false" />
+                <action type="1" x="0" y="-2000" time="2" relative="false" updaterotate="false" />
+                <bullet_group>
+                    <bullet res ="enemy1_bullet1" offset_x="0" offset_y="120" tl_x="-15" tl_y="15" br_x="15" br_y="-15" interval="0.5" cycle="3" delay="1" repeat="3"  rotate="0">
+                        <action type="1" x="0" y="-2560" time="3" relative="false" updaterotate="false" />
+                    </bullet>
+                </bullet_group>
+            </enemy>
+        </event>
+        <event delay="0">
+            <enemy res="enemy5" armor="300" atk="50" tl_x="-100" tl_y="-100" br_x="100" br_y="100" pos_x="268" pos_y="2200" rotate="180" delay="0" repeat="2" interval="5" cycle="7">
+                <action type="1" x="0" y="-500" time="1" relative="false" updaterotate="false" />
+                <action type="1" x="0" y="0" time="3" relative="false" updaterotate="false" />
+                <action type="1" x="0" y="-2000" time="2" relative="false" updaterotate="false" />
+                <bullet_group>
+                    <bullet res ="enemy4_bullet1" offset_x="0" offset_y="120" tl_x="-15" tl_y="15" br_x="15" br_y="-15" interval="0.5" cycle="3" delay="1" repeat="3"  rotate="180">
+                        <action type="1" x="0" y="-2560" time="3" relative="false" updaterotate="false" />
+                    </bullet>
+                </bullet_group>
+            </enemy>
+            <enemy res="enemy5" armor="300" atk="50" tl_x="-100" tl_y="-100" br_x="100" br_y="100" pos_x="768" pos_y="2200" rotate="180" delay="0" repeat="2" interval="5" cycle="7">
+                <action type="1" x="0" y="-800" time="1" relative="false" updaterotate="false" />
+                <action type="1" x="0" y="0" time="3" relative="false" updaterotate="false" />
+                <action type="1" x="0" y="-1700" time="1.7" relative="false" updaterotate="false" />
+                <bullet_group>
+                    <bullet res ="enemy4_bullet1" offset_x="0" offset_y="120" tl_x="-15" tl_y="15" br_x="15" br_y="-15" interval="0.5" cycle="3" delay="1" repeat="3"  rotate="180">
+                        <action type="1" x="0" y="-2560" time="3" relative="false" updaterotate="false" />
+                    </bullet>
+                </bullet_group>
+            </enemy>
+            <enemy res="enemy5" armor="300" atk="50" tl_x="-100" tl_y="-100" br_x="100" br_y="100" pos_x="1168" pos_y="2200" rotate="180" delay="0" repeat="2" interval="5" cycle="7">
+                <action type="1" x="0" y="-500" time="1" relative="false" updaterotate="false" />
+                <action type="1" x="0" y="0" time="3" relative="false" updaterotate="false" />
+                <action type="1" x="0" y="-2000" time="2" relative="false" updaterotate="false" />
+                <bullet_group>
+                    <bullet res ="enemy4_bullet1" offset_x="0" offset_y="120" tl_x="-15" tl_y="15" br_x="15" br_y="-15" interval="0.5" cycle="3" delay="1" repeat="3"  rotate="180">
+                        <action type="1" x="0" y="-2560" time="3" relative="false" updaterotate="false" />
+                    </bullet>
+                </bullet_group>
+            </enemy>
+        </event>
+        <event delay="0">
+            <enemy res="enemy7" armor="350" atk="50" tl_x="-100" tl_y="-100" br_x="100" br_y="100" pos_x="400" pos_y="2200" rotate="180" delay="0" repeat="2" interval="6" cycle="7">
+                <action type="1" x="0" y="-500" time="1" relative="false" updaterotate="false" />
+                <action type="1" x="0" y="0" time="3" relative="false" updaterotate="false" />
+                <action type="1" x="0" y="-2000" time="2" relative="false" updaterotate="false" />
+                <bullet_group>
+                    <bullet res ="enemy3_bullet1" offset_x="0" offset_y="120" tl_x="-15" tl_y="15" br_x="15" br_y="-15" interval="0.5" cycle="3" delay="1" repeat="5"  rotate="180">
+                        <action type="1" x="0" y="-2560" time="3" relative="false" updaterotate="false" />
+                    </bullet>
+                </bullet_group>
+            </enemy>
+            <enemy res="enemy7" armor="350" atk="50" tl_x="-100" tl_y="-100" br_x="100" br_y="100" pos_x="1136" pos_y="2200" rotate="180" delay="0" repeat="2" interval="6" cycle="7">
+                <action type="1" x="0" y="-500" time="1" relative="false" updaterotate="false" />
+                <action type="1" x="0" y="0" time="3" relative="false" updaterotate="false" />
+                <action type="1" x="0" y="-2000" time="2" relative="false" updaterotate="false" />
+                <bullet_group>
+                    <bullet res ="enemy3_bullet1" offset_x="0" offset_y="120" tl_x="-15" tl_y="15" br_x="15" br_y="-15" interval="0.5" cycle="3" delay="1" repeat="5"  rotate="180">
+                        <action type="1" x="0" y="-2560" time="3" relative="false" updaterotate="false" />
+                    </bullet>
+                </bullet_group>
+            </enemy>
+        </event>
+    </event_list>
+    <boss name="hongsezhongzhuangji" />
+</mission>
+

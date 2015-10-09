@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plane atk="200" name="战神一号" res="zhanshenyihao" icon="zhanshenyihao.png" weapon_x="0" weapon_y="0" wingman_x="-200" wingman_y="-50"
+    tl_x="-140" tl_y="90" br_x="140" br_y="-90">
+    <!-- type对应类别 
+        0:MoveTo 参数id, x, y, time
+        1:MoveBy 参数id, x, y, time
+        2:BezierTo 参数id, x1, y1, x2, y2, x3, y3, time
+        3:BezierBy 参数id, x1, y1, x2, y2, x3, y3, time
+        4:RotateTo 参数id, rotate, time
+        5:RotateBy 参数id, rotate, time
+        6:FadeIn 参数id, time
+        7:FadeOut 参数id, time
+        
+        relative:参数是相对参数还是绝对参数
+        updaterotate:是否实时更新朝向
+     -->
+    <bullet_group level="0">
+        <!--cycle周期为子弹生命周期,单位为秒-->
+        <bullet res ="zhanshenyihao_bullet1" offset_x="-50" offset_y="-40" tl_x="-5" tl_y="-5" br_x="5" br_y="5"
+            interval="0.3" cycle="2" delay="0" repeat="0" rotate="0">
+            <action type="1" x="0" y="2048" time="2" relative="false" updaterotate="false" />
+        </bullet>
+        <bullet res ="zhanshenyihao_bullet1" offset_x="-30" offset_y="20" tl_x="-5" tl_y="-5" br_x="5" br_y="5"
+            interval="0.3" cycle="2" delay="0" repeat="0" rotate="0">
+            <action type="1" x="0" y="2048" time="2" relative="false" updaterotate="false" />
+        </bullet>
+        <bullet res ="zhanshenyihao_bullet1" offset_x="-10" offset_y="-10" tl_x="-5" tl_y="-5" br_x="5" br_y="5"
+            interval="0.3" cycle="2" delay="0" repeat="0" rotate="0">
+            <action type="1" x="0" y="2048" time="1.5" relative="false" updaterotate="false" />
+        </bullet>
+        <bullet res ="zhanshenyihao_bullet1" offset_x="10" offset_y="-30" tl_x="-5" tl_y="-5" br_x="5" br_y="5"
+            interval="0.3" cycle="2" delay="0" repeat="0" rotate="0">
+            <action type="1" x="0" y="2048" time="1.5" relative="false" updaterotate="false" />
+        </bullet>
+        <bullet res ="zhanshenyihao_bullet1" offset_x="30" offset_y="-10" tl_x="-5" tl_y="-5" br_x="5" br_y="5"
+            interval="0.3" cycle="2" delay="0" repeat="0" rotate="0">
+            <action type="1" x="0" y="2048" time="2" relative="false" updaterotate="false" />
+        </bullet>
+        <bullet res ="zhanshenyihao_bullet1" offset_x="50" offset_y="-50" tl_x="-5" tl_y="-5" br_x="5" br_y="5"
+            interval="0.3" cycle="2" delay="0" repeat="0" rotate="0">
+            <action type="1" x="0" y="2048" time="2" relative="false" updaterotate="false" />
+        </bullet>
+    </bullet_group>
+    <bullet_group level="1">
+        <!--cycle周期为子弹生命周期,单位为秒-->
+        <bullet res ="zhanshenyihao_bullet1" offset_x="-50" offset_y="-40" tl_x="-5" tl_y="-5" br_x="5" br_y="5"
+            interval="0.25" cycle="2" delay="0" repeat="0" rotate="0">
+            <action type="1" x="0" y="2048" time="1.75" relative="false" updaterotate="false" />
+        </bullet>
+        <bullet res ="zhanshenyihao_bullet1" offset_x="-30" offset_y="20" tl_x="-5" tl_y="-5" br_x="5" br_y="5"
+            interval="0.25" cycle="2" delay="0" repeat="0" rotate="0">
+            <action type="1" x="0" y="2048" time="1.75" relative="false" updaterotate="false" />
+        </bullet>
+        <bullet res ="zhanshenyihao_bullet1" offset_x="-10" offset_y="-10" tl_x="-5" tl_y="-5" br_x="5" br_y="5"
+            interval="0.25" cycle="2" delay="0" repeat="0" rotate="0">
+            <action type="1" x="0" y="2048" time="1.5" relative="false" updaterotate="false" />
+        </bullet>
+        <bullet res ="zhanshenyihao_bullet1" offset_x="10" offset_y="-30" tl_x="-5" tl_y="-5" br_x="5" br_y="5"
+            interval="0.25" cycle="2" delay="0" repeat="0" rotate="0">
+            <action type="1" x="0" y="2048" time="1.5" relative="false" updaterotate="false" />
+        </bullet>
+        <bullet res ="zhanshenyihao_bullet1" offset_x="30" offset_y="-10" tl_x="-5" tl_y="-5" br_x="5" br_y="5"
+            interval="0.25" cycle="2" delay="0" repeat="0" rotate="0">
+            <action type="1" x="0" y="2048" time="1.75" relative="false" updaterotate="false" />
+        </bullet>
+        <bullet res ="zhanshenyihao_bullet1" offset_x="50" offset_y="-50" tl_x="-5" tl_y="-5" br_x="5" br_y="5"
+            interval="0.25" cycle="2" delay="0" repeat="0" rotate="0">
+            <action type="1" x="0" y="2048" time="1.75" relative="false" updaterotate="false" />
+        </bullet>
+    </bullet_group>
+    <bullet_group level="2">
+        <!--cycle周期为子弹生命周期,单位为秒-->
+        <bullet res ="zhanshenyihao_bullet1" offset_x="-50" offset_y="-40" tl_x="-5" tl_y="-5" br_x="5" br_y="5"
+            interval="0.2" cycle="2" delay="0" repeat="0" rotate="0">
+            <action type="1" x="0" y="2048" time="1.5" relative="false" updaterotate="false" />
+        </bullet>
+        <bullet res ="zhanshenyihao_bullet1" offset_x="-30" offset_y="20" tl_x="-5" tl_y="-5" br_x="5" br_y="5" interval="0.2" cycle="2" delay="0" repeat="0" rotate="0">
+            <action type="1" x="0" y="2048" time="1.5" relative="false" updaterotate="false" />
+        </bullet>
+        <bullet res ="zhanshenyihao_bullet1" offset_x="-10" offset_y="-10" tl_x="-5" tl_y="-5" br_x="5" br_y="5" interval="0.2" cycle="2" delay="0" repeat="0" rotate="0">
+            <action type="1" x="0" y="2048" time="1.5" relative="false" updaterotate="false" />
+        </bullet>
+        <bullet res ="zhanshenyihao_bullet1" offset_x="10" offset_y="-30" tl_x="-5" tl_y="-5" br_x="5" br_y="5" interval="0.2" cycle="2" delay="0" repeat="0" rotate="0">
+            <action type="1" x="0" y="2048" time="1.5" relative="false" updaterotate="false" />
+        </bullet>
+        <bullet res ="zhanshenyihao_bullet1" offset_x="30" offset_y="-10" tl_x="-5" tl_y="-5" br_x="5" br_y="5" interval="0.2" cycle="2" delay="0" repeat="0" rotate="0">
+            <action type="1" x="0" y="2048" time="1.5" relative="false" updaterotate="false" />
+        </bullet>
+        <bullet res ="zhanshenyihao_bullet1" offset_x="50" offset_y="-50" tl_x="-5" tl_y="-5" br_x="5" br_y="5" interval="0.2" cycle="2" delay="0" repeat="0" rotate="0">
+            <action type="1" x="0" y="2048" time="1.5" relative="false" updaterotate="false" />
+        </bullet>
+    </bullet_group>
+    <bullet_group level="3">
+        <!--cycle周期为子弹生命周期,单位为秒-->
+        <bullet res ="zhanshenyihao_bullet1" offset_x="-50" offset_y="-40" tl_x="-5" tl_y="-5" br_x="5" br_y="5" interval="0.05" cycle="2" delay="0" repeat="0" rotate="0">
+            <action type="1" x="0" y="2048" time="1.5" relative="false" updaterotate="false" />
+        </bullet>
+        <bullet res ="zhanshenyihao_bullet1" offset_x="-30" offset_y="20" tl_x="-5" tl_y="-5" br_x="5" br_y="5" interval="0.05" cycle="2" delay="0" repeat="0" rotate="0">
+            <action type="1" x="0" y="2048" time="1.5" relative="false" updaterotate="false" />
+        </bullet>
+        <bullet res ="zhanshenyihao_bullet1" offset_x="-10" offset_y="-10" tl_x="-5" tl_y="-5" br_x="5" br_y="5" interval="0.05" cycle="2" delay="0" repeat="0" rotate="0">
+            <action type="1" x="0" y="2048" time="1" relative="false" updaterotate="false" />
+        </bullet>
+        <bullet res ="zhanshenyihao_bullet1" offset_x="10" offset_y="-30" tl_x="-5" tl_y="-5" br_x="5" br_y="5" interval="0.05" cycle="2" delay="0" repeat="0" rotate="0">
+            <action type="1" x="0" y="2048" time="1" relative="false" updaterotate="false" />
+        </bullet>
+        <bullet res ="zhanshenyihao_bullet1" offset_x="30" offset_y="-10" tl_x="-5" tl_y="-5" br_x="5" br_y="5" interval="0.05" cycle="2" delay="0" repeat="0" rotate="0">
+            <action type="1" x="0" y="2048" time="1.5" relative="false" updaterotate="false" />
+        </bullet>
+        <bullet res ="zhanshenyihao_bullet1" offset_x="50" offset_y="-50" tl_x="-5" tl_y="-5" br_x="5" br_y="5" interval="0.05" cycle="2" delay="0" repeat="0" rotate="0">
+            <action type="1" x="0" y="2048" time="1.5" relative="false" updaterotate="false" />
+        </bullet>
+    </bullet_group>
+</plane>
+
